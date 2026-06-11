@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 66">
+  <g transform="skewX(-9)" fill="#C9A057">
+    <!-- T: crossbar + stem -->
+    <rect x="1" y="1" width="36" height="11" rx="1"/>
+    <rect x="13" y="12" width="12" height="43" rx="1"/>
+    <!-- D: outer minus inner hole (evenodd creates the hollow letter) -->
+    <path fill-rule="evenodd" d="
+      M24,1 L38,1 Q68,1 68,28 Q68,55 38,55 L24,55 Z
+      M30,12 L39,12 Q57,12 57,28 Q57,44 39,44 L30,44 Z
+    "/>
+  </g>
+  <!-- Swoosh accent -->
+  <path d="M4,61 Q32,51 62,58 Q76,62 88,54"
+        stroke="#C9A057" stroke-width="5.5" stroke-linecap="round" fill="none"/>
+</svg>
